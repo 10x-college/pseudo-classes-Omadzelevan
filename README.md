@@ -94,6 +94,9 @@
 
 ჩასვით სურათი README.md ფაილში.
 
+![Project Screenshot](./assets/preview.png)
+
+
 ✅ მიღების კრიტერიუმები (Acceptance Criteria)
 
 დავალება ჩაითვლება მიღებულად, თუ:
