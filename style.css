@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #645e5e20;
+}
+
+.logo-search {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.calnedar-table {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+.site-name a {
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.site-name span:nth-child(1) {
+  color: rgb(54, 104, 54);
+}
+.site-name span:nth-child(2) {
+  color: orange;
+}
+.site-name span:nth-child(3) {
+  color: green;
+}
+
+#search {
+  background-color: #ecf3f5;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  padding: 15px 20px;
+  height: 60px;
+  width: 360px;
+}
+
+.calendar-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-div img {
+  height: 18px;
+  width: 18px;
+  color: #2c3832;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #b1ced4;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  
+  background-color: #b2dfe8;
+}
+
+/* hero */
+
+.cards-div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-transform: uppercase;
+  padding: 5rem 10rem 2rem;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  width: 200px;
+  background-color: #d8e6e9;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.02);
+  -webkit-box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-bottom {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-bottom h2 {
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.category-icons img {
+  width: 40px;
+  height: 17px;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* food categories */
+
+.food-categories {
+  display: flex;
+  gap: 50px;
+  margin-left: 10rem;
+  background-color: #eaf0f0;
+  padding: 2rem;
+  width: 949px;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.categories:nth-child(1) {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #2c3832;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+.categories:nth-child(1):hover {
+  background-color: #2c3832ca;
+  transition: all 0.2s;
+}
+
+.categories {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+.categories:hover {
+  background-color: #b3abab;
+  cursor: pointer;
+  transition: all 0.2s;
+}
